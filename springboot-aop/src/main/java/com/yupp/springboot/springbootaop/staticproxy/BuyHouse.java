@@ -1,4 +1,4 @@
-package com.yupp.springboot.springbootaop.staticagency;
+package com.yupp.springboot.springbootaop.staticproxy;
 
 /**
  * @author yupanpan
