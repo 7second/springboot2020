@@ -10,6 +10,7 @@
   <modules>
     <module>spring-test01</module>
     <module>spring-mybatis-druid-demo</module>
+      <module>springboot-singleton</module>
   </modules>
   <packaging>pom</packaging>
 
