@@ -1,3 +1,5 @@
+package com.yupp.singleton;
+
 /**
  * @author yupanpan
  * @date 2020/8/4 23:25
