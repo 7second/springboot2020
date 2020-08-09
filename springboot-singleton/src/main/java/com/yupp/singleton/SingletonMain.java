@@ -11,5 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SingletonMain {
     public static void main(String[] args) {
         SpringApplication.run(SingletonMain.class, args);
+        System.out.println(Math.round(-1.5));
+
     }
 }
