@@ -7,9 +7,11 @@ import java.util.Arrays;
  * @date 2020/9/6 22:36
  * @desc 选择排序
  */
-public class SelectionSort {
+public class SelectionSort implements IArraySort{
 
+    @Override
     public int[] sort(int[] sourceArray) {
+        // 对 arr 进行拷贝，不改变参数内容
         int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
         // 总共要经过n-1次比较
         for (int i = 0; i < arr.length-1; i++) {
