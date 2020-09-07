@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * @author yupanpan
  * @date 2020/9/6 22:36
- * @desc 选择排序
+ * @desc 选择排序  时间复杂度 n²
  * @url https://www.runoob.com/w3cnote/selection-sort.html
  */
 public class SelectionSort implements IArraySort{
@@ -36,6 +36,13 @@ public class SelectionSort implements IArraySort{
 
         return arr;
 
+    }
+
+    public static void main(String[] args) {
+        int[] sourceArray = {3,4,5,6,87,39,23,85,4,23,0,45,13,2,53,6};
+        IArraySort  sort = new SelectionSort();
+        int[] res = sort.sort(sourceArray);
+        System.out.println(Arrays.toString(res));
     }
 
 }
